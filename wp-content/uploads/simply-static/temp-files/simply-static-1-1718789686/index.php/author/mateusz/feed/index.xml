@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Mateusz &#8211; Biomedica</title>
+	<atom:link href="https://daim124-ux.github.io/biomedica/index.php/author/mateusz/feed/" rel="self" type="application/rss+xml" />
+	<link>https://daim124-ux.github.io/biomedica</link>
+	<description></description>
+	<lastBuildDate>Wed, 19 Jun 2024 09:27:50 +0000</lastBuildDate>
+	<language>pl-PL</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.5.4</generator>
+	<item>
+		<title>Witaj, świecie!</title>
+		<link>https://daim124-ux.github.io/biomedica/index.php/2024/06/19/witaj-swiecie/</link>
+					<comments>https://daim124-ux.github.io/biomedica/index.php/2024/06/19/witaj-swiecie/#comments</comments>
+		
+		<dc:creator><![CDATA[Mateusz]]></dc:creator>
+		<pubDate>Wed, 19 Jun 2024 09:27:50 +0000</pubDate>
+				<category><![CDATA[Bez kategorii]]></category>
+		<guid isPermaLink="false">https://daim124-ux.github.io/biomedica/?p=1</guid>
+
+					<description><![CDATA[Witamy w WordPressie. To jest twój pierwszy wpis. Edytuj go lub usuń, a następnie zacznij pisać!]]></description>
+										<content:encoded><![CDATA[
+<p>Witamy w WordPressie. To jest twój pierwszy wpis. Edytuj go lub usuń, a następnie zacznij pisać!</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://daim124-ux.github.io/biomedica/index.php/2024/06/19/witaj-swiecie/feed/</wfw:commentRss>
+			<slash:comments>1</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>
