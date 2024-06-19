@@ -1,4 +1,3 @@
-
 # BEGIN WordPress
 # Dyrektywy zawarte między "BEGIN WordPress" oraz "END WordPress"
 # są generowane dynamicznie i powinny być modyfikowane tylko za pomocą
@@ -12,8 +11,8 @@ RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule . /biom/biomedica/index.php [L]
 </IfModule>
-
 # END WordPress
+
 # BEGIN Simply Static
 # Dyrektywy zawarte między "BEGIN Simply Static" oraz "END Simply Static"
 # są generowane dynamicznie i powinny być modyfikowane tylko za pomocą
@@ -23,3 +22,10 @@ require all denied
 require host localhost
 </Files>
 # END Simply Static
+
+# Custom PHP settings
+php_value upload_max_filesize 128M
+php_value post_max_size 128M
+php_value memory_limit 256M
+php_value max_execution_time 300
+php_value max_input_time 300
