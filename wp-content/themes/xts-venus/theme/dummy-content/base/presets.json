@@ -1,0 +1,78 @@
+{
+	"1": {
+		"id": 1,
+		"name": "venus_alternative",
+		"condition": {
+			"relation": "OR",
+			"rules": [
+				{
+					"type": "post_id",
+					"comparison": "equals",
+					"post_type": "page",
+					"taxonomy": "category",
+					"custom": "search",
+					"value_id": "838"
+				}
+			]
+		}
+	},
+	"3": {
+		"id": 3,
+		"name": "blog_without_sidebar_venus",
+		"condition": {
+			"relation": "OR",
+			"rules": [
+				{
+					"type": "post_id",
+					"comparison": "equals",
+					"post_type": "post",
+					"taxonomy": "category",
+					"custom": "search",
+					"value_id": "1309"
+				}
+			]
+		}
+	},
+	"4": {
+		"id": 4,
+		"name": "blog_masonry_venus",
+		"condition": {
+			"relation": "OR",
+			"rules": [
+				{
+					"type": "",
+					"comparison": "equals",
+					"post_type": "post",
+					"taxonomy": "category",
+					"custom": "search",
+					"value_id": ""
+				}
+			]
+		}
+	},
+	"5": {
+		"id": 5,
+		"name": "blog_one_column_venus",
+		"condition": []
+	},
+	"6": {
+		"id": 6,
+		"name": "different_sizes_venus",
+		"condition": []
+	},
+	"7": {
+		"id": 7,
+		"name": "animation_view_venus",
+		"condition": []
+	},
+	"8": {
+		"id": 8,
+		"name": "load_more_venus",
+		"condition": []
+	},
+	"9": {
+		"id": 9,
+		"name": "image_page_title_venus",
+		"condition": []
+	}
+}

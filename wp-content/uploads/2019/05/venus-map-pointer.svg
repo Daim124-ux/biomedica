@@ -1,0 +1,5 @@
+<svg id="map-pointer" xmlns="http://www.w3.org/2000/svg" width="54" height="75.4" viewBox="0 0 54 75.4" >
+<path style="fill:#00B09F;" d="M54,27c0,17.5-17.9,38-24.6,47.2c-1.2,1.7-3.7,1.7-4.9,0C17.9,65,0,44.5,0,27S12.1,0,27,0
+	S54,9.5,54,27z"/>
+<path style="fill:#FFFFFF;" d="M33.5,20.5v-9h-13v9h-9v13h9v9h13v-9h9v-13H33.5z"/>
+</svg>

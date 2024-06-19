@@ -11,21 +11,22 @@ RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule . /biom/biomedica/index.php [L]
 </IfModule>
+
 # END WordPress
 
 # BEGIN Simply Static
 # Dyrektywy zawarte między "BEGIN Simply Static" oraz "END Simply Static"
 # są generowane dynamicznie i powinny być modyfikowane tylko za pomocą
 # filtrów WordPressa. Zmiany dokonane bezpośrednio tutaj będą nadpisywane.
-<Files "D:\xampp\htdocs\biom\biomedica/wp-content/uploads\simply-static\8a695f170996907b6612add90996b9bf-debug.txt">
+<Files "D:\xampp\htdocs\biom\biomedica/wp-content/uploads\simply-static\4399c4438edc2091cdd7d483fe41d07c-debug.txt">
 require all denied
 require host localhost
 </Files>
 # END Simply Static
 
 # Custom PHP settings
-php_value upload_max_filesize 128M
-php_value post_max_size 128M
+php_value upload_max_filesize 512M
+php_value post_max_size 512M
 php_value memory_limit 256M
 php_value max_execution_time 300
 php_value max_input_time 300

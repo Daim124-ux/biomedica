@@ -1,0 +1,158 @@
+
+
+
+
+
+@media (min-width: 1025px) {
+
+	/* HEIGHT OF ROWS ON HEADER */
+
+	.xts-top-bar .xts-header-row-inner {
+		height: 40px;
+	}
+
+	.xts-general-header .xts-header-row-inner {
+		height: 120px;
+	}
+
+	.xts-header-bottom .xts-header-row-inner {
+		height: 0px;
+	}
+
+	/* HEIGHT OF ROWS WHEN HEADER IS STICKY */
+
+	.xts-sticky-real.xts-sticked .xts-top-bar .xts-header-row-inner {
+		height: 0px;
+	}
+
+	.xts-sticky-real.xts-sticked .xts-general-header .xts-header-row-inner {
+		height: 65px;
+	}
+
+	.xts-sticky-real.xts-sticked .xts-header-bottom .xts-header-row-inner {
+		height: 0px;
+	}
+
+	/* HEIGHT OF HEADER CLONE */
+
+	.xts-header-clone .xts-header-row-inner {
+		height: 50px;
+	}
+
+	/* HEIGHT OF PAGE TITLE WHEN HEADER IS OVER CONTENT */
+
+	.xts-header-overlap .xts-page-title.xts-size-xs {
+		padding-top: 170px;
+	}
+
+	.xts-header-overlap .xts-page-title.xts-size-s {
+		padding-top: 180px;
+	}
+
+	.xts-header-overlap .xts-page-title.xts-size-m {
+		padding-top: 200px;
+	}
+
+	.xts-header-overlap .xts-page-title.xts-size-l {
+		padding-top: 240px;
+	}
+
+	.xts-header-overlap .xts-page-title.xts-size-xl {
+		padding-top: 270px;
+	}
+
+	.xts-header-overlap .xts-page-title.xts-size-xxl {
+		padding-top: 360px;
+	}
+
+	/* HEIGHT OF HEADER BUILDER ELEMENTS */
+
+	/* HEIGHT ELEMENTS IN TOP BAR */
+
+	.xts-top-bar .xts-logo img {
+		max-height: 40px;
+	}
+
+	.xts-sticked .xts-top-bar .xts-logo img {
+		max-height: 0px;
+	}
+
+	/* HEIGHT ELEMENTS IN GENERAL HEADER */
+
+	.xts-general-header .xts-logo img {
+		max-height: 120px;
+	}
+
+	.xts-sticked .xts-general-header .xts-logo img {
+		max-height: 65px;
+	}
+
+	/* HEIGHT ELEMENTS IN BOTTOM HEADER */
+
+	.xts-header-bottom .xts-logo img {
+		max-height: 0px;
+	}
+
+	.xts-sticked .xts-header-bottom .xts-logo img {
+		max-height: 0px;
+	}
+
+	/* HEIGHT ELEMENTS IN HEADER CLONE */
+
+	.xts-header-clone .xts-general-header .xts-logo img {
+		max-height: 50px;
+	}
+}
+
+@media (max-width: 1024px) {
+
+	/* HEIGHT OF ROWS ON HEADER */
+
+	.xts-top-bar .xts-header-row-inner {
+		height: 0px;
+	}
+
+	.xts-general-header .xts-header-row-inner {
+		height: 60px;
+	}
+
+	.xts-header-bottom .xts-header-row-inner {
+		height: 0px;
+	}
+
+	/* HEADER OVER CONTENT */
+
+	.xts-header-overlap .xts-page-title {
+		padding-top: 80px;
+	}
+
+	/* HEIGHT ELEMENTS IN TOP BAR */
+
+	.xts-top-bar .xts-logo img {
+		max-height: 0px;
+	}
+
+	/* HEIGHT ELEMENTS IN GENERAL HEADER */
+
+	.xts-general-header .xts-logo img {
+		max-height: 60px;
+	}
+
+	/* HEIGHT ELEMENTS IN BOTTOM HEADER */
+
+	.xts-header-bottom .xts-logo img {
+		max-height: 0px;
+	}
+}
+
+.xts-top-bar {
+	background-color: rgba(0, 176, 159, 1);border-style: solid;
+}
+
+.xts-general-header {
+	border-color: rgba(129, 129, 129, 0.2);border-style: solid;
+}
+
+.xts-header-bottom {
+	border-style: solid;
+}

@@ -1,0 +1,379 @@
+<wpml-config>
+    <custom-types>
+        <custom-type translate="1">xts-html-block</custom-type>
+        <custom-type translate="1">xts-portfolio</custom-type>
+        <custom-type translate="1">xts-slide</custom-type>
+        <custom-type translate="1">xts-template</custom-type>
+        <custom-type translate="1">xts-size-guide</custom-type>
+        <custom-type translate="0">xts-sidebar</custom-type>
+    </custom-types>
+
+    <taxonomies>
+        <taxonomy translate="1">xts-portfolio-cat</taxonomy>
+        <taxonomy translate="1">xts-html-block-cat</taxonomy>
+        <taxonomy translate="1">xts_slider</taxonomy>
+    </taxonomies>
+
+    <admin-texts>
+        <key name="xts_main_header"/>
+        <key name="xts-venus-options">
+            <key name="wishlist_page"/>
+            <key name="compare_page"/>
+            <key name="cookies_title"/>
+            <key name="cookies_content"/>
+            <key name="copyrights_left_text"/>
+            <key name="copyrights_right_text"/>
+            <key name="blog_single_header"/>
+            <key name="portfolio_single_header"/>
+            <key name="single_product_header"/>
+            <key name="promo_popup_content"/>
+            <key name="footer_html_block"/>
+            <key name="prefooter_html_block"/>
+            <key name="shop_filters_area_html_block"/>
+            <key name="single_product_additional_tab_html_block"/>
+            <key name="single_product_custom_additional_tab_title"/>
+            <key name="single_product_custom_additional_tab_text"/>
+            <key name="single_product_before_add_to_cart_html_block"/>
+            <key name="single_product_before_add_to_cart_text"/>
+            <key name="single_product_after_add_to_cart_html_block"/>
+            <key name="single_product_after_add_to_cart_text"/>
+            <key name="empty_cart_text"/>
+            <key name="compare_empty_text"/>
+            <key name="wishlist_empty_text"/>
+            <key name="header_banner_text"/>
+            <key name="header_banner_html_block"/>
+            <key name="reg_text"/>
+            <key name="login_text"/>
+            <key name="empty_cart_text"/>
+            <key name="prefooter_area"/>
+            <key name="content_before_add_to_cart"/>
+            <key name="content_after_add_to_cart"/>
+            <key name="additional_tab_title"/>
+            <key name="additional_tab_text"/>
+            <key name="single_product_header"/>
+            <key name="empty_compare_text"/>
+            <key name="reg_title"/>
+            <key name="login_title"/>
+            <key name="header_banner_shortcode"/>
+            <key name="grid_swatches_attribute"/>
+            <key name="wishlist_empty_text"/>
+            <key name="thank_you_page_extra_content"/>
+        </key>
+    </admin-texts>
+
+    <custom-fields>
+        <custom-field action="translate" label="Additional Tab Title">_xts_single_product_custom_additional_tab_title</custom-field>
+        <custom-field action="translate" label="Additional Tab Text">_xts_single_product_custom_additional_tab_text</custom-field>
+        <custom-field action="translate" label="Post Quote">_xts_post_quote</custom-field>
+        <custom-field action="translate" label="Post Quote Cite">_xts_post_quote_cite</custom-field>
+        <custom-field action="translate" label="Custom header for page">_xts_page_custom_header</custom-field>
+        <custom-field action="translate" label="Custom header for product">_xts_single_product_header</custom-field>
+        <custom-field action="translate" label="Additional Tab HTML Block">_xts_single_product_custom_additional_tab_html_block</custom-field>
+    </custom-fields>
+
+    <elementor-widgets>
+        <widget name="xts_accordion">
+            <conditions>
+                <condition key="widgetType">xts_accordion</condition>
+            </conditions>
+            <fields-in-item items_of="accordion_items">
+                <field type="[XTS] Accordion - Title" editor_type="LINE">item_title</field>
+                <field type="[XTS] Accordion - Description" editor_type="AREA">item_desc</field>
+            </fields-in-item>
+        </widget>
+
+        <widget name="xts_animated_text">
+            <conditions>
+                <condition key="widgetType">xts_animated_text</condition>
+            </conditions>
+            <fields>
+                <field type="[XTS] Animated text - Before text" editor_type="LINE">before_text</field>
+                <field type="[XTS] Animated text - Words" editor_type="AREA">animated_text</field>
+                <field type="[XTS] Animated text - After text" editor_type="LINE">after_text</field>
+            </fields>
+        </widget>
+
+        <widget name="xts_banner">
+            <conditions>
+                <condition key="widgetType">xts_banner</condition>
+            </conditions>
+            <fields>
+                <field type="[XTS] Banner - Subtitle" editor_type="LINE">subtitle</field>
+                <field type="[XTS] Banner - Content" editor_type="LINE">title</field>
+                <field type="[XTS] Banner - Description" editor_type="AREA">description</field>
+                <field type="[XTS] Banner - Button text" editor_type="LINE">button_text</field>
+                <field type="[XTS] Banner - Button link" editor_type="LINK" key_of="link">url</field>
+            </fields>
+        </widget>
+
+        <widget name="xts_banner_carousel">
+            <conditions>
+                <condition key="widgetType">xts_banner_carousel</condition>
+            </conditions>
+            <fields-in-item items_of="content_repeater">
+                <field type="[XTS] Banner carousel - Subtitle" editor_type="LINE">subtitle</field>
+                <field type="[XTS] Banner carousel - Content" editor_type="LINE">title</field>
+                <field type="[XTS] Banner carousel - Description" editor_type="AREA">description</field>
+                <field type="[XTS] Banner carousel - Button text" editor_type="LINE">button_text</field>
+                <field type="[XTS] Banner carousel - Button link" editor_type="LINK" key_of="link">url</field>
+            </fields-in-item>
+        </widget>
+
+        <widget name="xts_button">
+            <conditions>
+                <condition key="widgetType">xts_button</condition>
+            </conditions>
+            <fields>
+                <field type="[XTS] Button - Text" editor_type="LINE">button_text</field>
+                <field type="[XTS] Button - Link" editor_type="LINK" key_of="link">url</field>
+            </fields>
+        </widget>
+
+        <widget name="xts_blockquote">
+            <conditions>
+                <condition key="widgetType">xts_blockquote</condition>
+            </conditions>
+            <fields>
+                <field type="[XTS] Blockquote - Quote" editor_type="LINE">blockquote</field>
+                <field type="[XTS] Blockquote - Author" editor_type="LINE">author</field>
+            </fields>
+        </widget>
+
+        <widget name="xts_extra_menu_list">
+            <conditions>
+                <condition key="widgetType">xts_extra_menu_list</condition>
+            </conditions>
+            <fields>
+                <field type="[XTS] Extra menu list - Title" editor_type="LINE">title</field>
+                <field type="[XTS] Extra menu list - Link" editor_type="LINK" key_of="link">url</field>
+                <field type="[XTS] Extra menu list - Label text" editor_type="LINE">label</field>
+            </fields>
+            <fields-in-item items_of="menu_items_repeater">
+                <field type="[XTS] Extra menu list - Title" editor_type="LINE">title</field>
+                <field type="[XTS] Extra menu list - Link" editor_type="LINK" key_of="link">url</field>
+                <field type="[XTS] Extra menu list - Label text" editor_type="LINE">label</field>
+            </fields-in-item>
+        </widget>
+
+        <widget name="xts_google_map">
+            <conditions>
+                <condition key="widgetType">xts_google_map</condition>
+            </conditions>
+            <fields>
+                <field type="[XTS] Google map - Text" editor_type="AREA">text</field>
+                <field type="[XTS] Google map - Marker title" editor_type="LINE">marker_title</field>
+                <field type="[XTS] Google map - Marker Text" editor_type="AREA">marker_text</field>
+            </fields>
+        </widget>
+
+        <widget name="xts_hotspots">
+            <conditions>
+                <condition key="widgetType">xts_hotspots</condition>
+            </conditions>
+            <fields-in-item items_of="hotspots_repeater">
+                <field type="[XTS] Hotspots - Title" editor_type="LINE">title</field>
+                <field type="[XTS] Hotspots - Description" editor_type="AREA">description</field>
+                <field type="[XTS] Hotspots - Button text" editor_type="AREA">link_text</field>
+                <field type="[XTS] Hotspots - Button link" editor_type="LINE">url</field>
+            </fields-in-item>
+        </widget>
+
+        <widget name="xts_infobox">
+            <conditions>
+                <condition key="widgetType">xts_infobox</condition>
+            </conditions>
+            <fields>
+                <field type="[XTS] Infobox - Infobox link" editor_type="LINK">infobox_url</field>
+                <field type="[XTS] Infobox - Subtitle" editor_type="LINE">subtitle</field>
+                <field type="[XTS] Infobox - Title" editor_type="LINE">title</field>
+                <field type="[XTS] Infobox - Description" editor_type="AREA">description</field>
+                <field type="[XTS] Infobox - Button text" editor_type="LINE">button_text</field>
+                <field type="[XTS] Infobox - Button link" editor_type="LINK" key_of="link">url</field>
+            </fields>
+        </widget>
+
+        <widget name="xts_infobox_carousel">
+            <conditions>
+                <condition key="widgetType">xts_infobox_carousel</condition>
+            </conditions>
+            <fields-in-item items_of="content_repeater">
+                <field type="[XTS] Infobox carousel - Infobox Link" editor_type="LINE">infobox_url</field>
+                <field type="[XTS] Infobox carousel - Subtitle" editor_type="LINE">subtitle</field>
+                <field type="[XTS] Infobox carousel - Title" editor_type="LINE">title</field>
+                <field type="[XTS] Infobox carousel - Description" editor_type="AREA">description</field>
+                <field type="[XTS] Infobox carousel - Button Text" editor_type="LINE">button_text</field>
+                <field type="[XTS] Infobox carousel - Button Link" editor_type="LINK" key_of="link">url</field>
+            </fields-in-item>
+        </widget>
+
+        <widget name="xts_instagram">
+            <conditions>
+                <condition key="widgetType">xts_instagram</condition>
+            </conditions>
+            <fields>
+                <field type="[XTS] Instagram - Description" editor_type="AREA">description</field>
+            </fields>
+        </widget>
+
+        <widget name="xts_menu_price">
+            <conditions>
+                <condition key="widgetType">xts_menu_price</condition>
+            </conditions>
+            <fields-in-item items_of="menu_price_items">
+                <field type="[XTS] Menu price - Title" editor_type="LINE">title</field>
+                <field type="[XTS] Menu price - Price" editor_type="LINE">price</field>
+                <field type="[XTS] Menu price - Description" editor_type="AREA">description</field>
+                <field type="[XTS] Menu price - Link" editor_type="LINK" key_of="link">url</field>
+            </fields-in-item>
+        </widget>
+
+        <widget name="xts_mega_menu">
+            <conditions>
+                <condition key="widgetType">xts_mega_menu</condition>
+            </conditions>
+            <fields>
+                <field type="[XTS] Mega menu - Title" editor_type="LINE">title</field>
+            </fields>
+        </widget>
+
+        <widget name="xts_price_plan">
+            <conditions>
+                <condition key="widgetType">xts_price_plan</condition>
+            </conditions>
+            <fields>
+                <field type="[XTS] Price plan - Title" editor_type="LINE">title</field>
+                <field type="[XTS] Price plan - Description" editor_type="AREA">description</field>
+                <field type="[XTS] Price plan - Label text" editor_type="LINE">label_text</field>
+                <field type="[XTS] Price plan - Subtitle 1" editor_type="LINE">title_1</field>
+                <field type="[XTS] Price plan - Subtitle 2" editor_type="LINE">title_2</field>
+                <field type="[XTS] Price plan - Subtitle 3" editor_type="LINE">title_3</field>
+                <field type="[XTS] Price plan - Button text" editor_type="LINE">button_text</field>
+                <field type="[XTS] Price plan - Button Link" editor_type="LINK" key_of="link">url</field>
+            </fields>
+            <fields-in-item items_of="features_list">
+                <field type="[XTS] Price plan - Features text" editor_type="AREA">item_text</field>
+            </fields-in-item>
+        </widget>
+
+        <widget name="xts_price_plan_switcher">
+            <conditions>
+                <condition key="widgetType">xts_price_plan_switcher</condition>
+            </conditions>
+            <fields>
+                <field type="[XTS] Price plan switcher - Price 1" editor_type="LINE">price_1</field>
+                <field type="[XTS] Price plan switcher - Price 2" editor_type="LINE">price_2</field>
+                <field type="[XTS] Price plan switcher - Price 3" editor_type="LINE">price_3</field>
+            </fields>
+        </widget>
+
+        <widget name="xts_popup">
+            <conditions>
+                <condition key="widgetType">xts_popup</condition>
+            </conditions>
+            <fields>
+                <field type="[XTS] Popup - Button" editor_type="LINE">button_text</field>
+            </fields>
+        </widget>
+
+        <widget name="xts_social_buttons">
+            <conditions>
+                <condition key="widgetType">xts_social_buttons</condition>
+            </conditions>
+            <fields>
+                <field type="[XTS] Social buttons - Label text" editor_type="LINE">label_text</field>
+            </fields>
+        </widget>
+
+        <widget name="xts_team_member">
+            <conditions>
+                <condition key="widgetType">xts_team_member</condition>
+            </conditions>
+            <fields>
+                <field type="[XTS] Team member - Name" editor_type="LINE">name</field>
+                <field type="[XTS] Team member - Position" editor_type="LINE">position</field>
+                <field type="[XTS] Team member - Description" editor_type="AREA">description</field>
+            </fields>
+        </widget>
+
+        <widget name="xts_testimonials">
+            <conditions>
+                <condition key="widgetType">xts_testimonials</condition>
+            </conditions>
+            <fields-in-item items_of="testimonials">
+                <field type="[XTS] Testimonials - Name" editor_type="LINE">name</field>
+                <field type="[XTS] Testimonials - User title" editor_type="LINE">title</field>
+                <field type="[XTS] Testimonials - Description" editor_type="AREA">description</field>
+            </fields-in-item>
+        </widget>
+
+        <widget name="xts_tabs">
+            <conditions>
+                <condition key="widgetType">xts_tabs</condition>
+            </conditions>
+            <fields-in-item items_of="tabs_items">
+                <field type="[XTS] Tabs - Title" editor_type="LINE">item_title</field>
+                <field type="[XTS] Tabs - Description" editor_type="AREA">item_desc</field>
+            </fields-in-item>
+        </widget>
+
+        <widget name="xts_title">
+            <conditions>
+                <condition key="widgetType">xts_title</condition>
+            </conditions>
+            <fields>
+                <field type="[XTS] Title - Subtitle" editor_type="LINE">subtitle</field>
+                <field type="[XTS] Title - Title" editor_type="LINE">title</field>
+                <field type="[XTS] Title - Description" editor_type="AREA">description</field>
+            </fields>
+        </widget>
+
+        <widget name="xts_table">
+            <conditions>
+                <condition key="widgetType">xts_table</condition>
+            </conditions>
+            <fields-in-item items_of="heading_items">
+                <field type="[XTS] Table - Heading text" editor_type="AREA">heading_cell_text</field>
+            </fields-in-item>
+            <fields-in-item items_of="body_items">
+                <field type="[XTS] Table - Body text" editor_type="AREA">body_cell_text</field>
+            </fields-in-item>
+        </widget>
+
+        <widget name="xts_timeline">
+            <conditions>
+                <condition key="widgetType">xts_timeline</condition>
+            </conditions>
+            <fields-in-item items_of="timeline_items">
+                <field type="[XTS] Timeline - Breakpoint text" editor_type="AREA">breakpoint_text</field>
+                <field type="[XTS] Timeline - First item subtitle" editor_type="LINE">first_subtitle</field>
+                <field type="[XTS] Timeline - First item title" editor_type="LINE">first_title</field>
+                <field type="[XTS] Timeline - First item description" editor_type="AREA">first_description</field>
+                <field type="[XTS] Timeline - Second item subtitle" editor_type="LINE">second_subtitle</field>
+                <field type="[XTS] Timeline - Title" editor_type="LINE">second_title</field>
+                <field type="[XTS] Timeline - Description" editor_type="AREA">second_description</field>
+            </fields-in-item>
+        </widget>
+
+        <widget name="xts_video">
+            <conditions>
+                <condition key="widgetType">xts_video</condition>
+            </conditions>
+            <fields>
+                <field type="[XTS] Video - Label" editor_type="LINE">play_button_label</field>
+                <field type="[XTS] Video - Youtube link" editor_type="LINE">video_youtube_url</field>
+                <field type="[XTS] Video - Vimeo link" editor_type="LINK">video_vimeo_url</field>
+            </fields>
+        </widget>
+
+        <widget name="xts_working_hours">
+            <conditions>
+                <condition key="widgetType">xts_working_hours</condition>
+            </conditions>
+            <fields-in-item items_of="items">
+                <field type="[XTS] Working hours - Title" editor_type="LINE">title</field>
+                <field type="[XTS] Working hours - Time" editor_type="LINE">time</field>
+                <field type="[XTS] Working hours - Description" editor_type="LINE">description</field>
+            </fields-in-item>
+        </widget>
+    </elementor-widgets>
+</wpml-config>

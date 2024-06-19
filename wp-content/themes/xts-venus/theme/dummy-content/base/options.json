@@ -1,0 +1,110 @@
+{
+	"all_pages_bg": {
+		"color": "#f9f9f9",
+		"url": "",
+		"id": "",
+		"repeat": "",
+		"size": "",
+		"attachment": "",
+		"position": "",
+		"position_x": "0",
+		"position_y": "0",
+		"css_output": "1"
+	},
+	"blog_image_size": "medium",
+	"blog_sidebar_sticky": "1",
+	"blog_single_design": "mask",
+	"default_header": "header_262436",
+	"footer_layout": "16",
+	"footer_widgets_collapse": "1",
+	"header_banner_color_scheme": "default",
+	"page_title_bg": {
+		"color": "#00b09f",
+		"url": "\/2020\/11\/venus-page-title-departmens-opt.jpg",
+		"id": "1392",
+		"repeat": "",
+		"size": "",
+		"attachment": "",
+		"position": "",
+		"position_x": "0",
+		"position_y": "0",
+		"css_output": "1"
+	},
+	"page_title_color_scheme": "light",
+	"page_title_design": "centered",
+	"page_title_size": "l",
+	"portfolio_masonry": "1",
+	"1": {
+		"all_pages_bg": {
+			"color": "",
+			"url": "",
+			"id": "",
+			"repeat": "",
+			"size": "",
+			"attachment": "",
+			"position": "",
+			"css_output": "1"
+		},
+		"footer_bg": {
+			"color": "#efefef6e",
+			"url": "",
+			"id": "",
+			"repeat": "",
+			"size": "",
+			"attachment": "",
+			"position": "",
+			"css_output": "1"
+		},
+		"footer_color_scheme": "dark",
+		"fields_to_save": "all_pages_bg,footer_bg,footer_color_scheme"
+	},
+	"3": {
+		"blog_sidebar_position": "disabled",
+		"fields_to_save": "blog_sidebar_position"
+	},
+	"4": {
+		"blog_sidebar_position": "disabled",
+		"blog_columns": "4",
+		"blog_columns_tablet": "",
+		"blog_columns_mobile": "",
+		"blog_masonry": "1",
+		"blog_different_sizes": "1",
+		"blog_different_sizes_position": "1,2,5,9",
+		"wp_options": "posts_per_page:12",
+		"fields_to_save": "blog_sidebar_position,blog_columns,blog_columns_tablet,blog_columns_mobile,,blog_masonry,blog_different_sizes,blog_different_sizes_position,wp_options"
+	},
+	"5": {
+		"blog_columns": "1",
+		"blog_columns_tablet": "",
+		"blog_columns_mobile": "",
+		"blog_image_size": "large",
+		"fields_to_save": "blog_columns,blog_columns_tablet,blog_columns_mobile,,blog_image_size"
+	},
+	"6": {
+		"blog_columns": "2",
+		"blog_columns_tablet": "",
+		"blog_columns_mobile": "",
+		"blog_different_sizes": "1",
+		"blog_different_sizes_position": "1,4,7,10",
+		"blog_image_size": "large",
+		"fields_to_save": "blog_columns,blog_columns_tablet,blog_columns_mobile,,blog_different_sizes,blog_different_sizes_position,blog_image_size"
+	},
+	"7": {
+		"blog_sidebar_position": "disabled",
+		"blog_animation_in_view": "1",
+		"blog_animation": "short-in-up",
+		"blog_animation_duration": "fast",
+		"blog_animation_delay": "100",
+		"fields_to_save": "blog_sidebar_position,blog_animation_in_view,blog_animation,blog_animation_duration,blog_animation_delay"
+	},
+	"8": {
+		"blog_sidebar_position": "disabled",
+		"blog_pagination": "load_more",
+		"fields_to_save": "blog_sidebar_position,blog_pagination"
+	},
+	"9": {
+		"page_title_size": "xl",
+		"blog_single_design": "page-title",
+		"fields_to_save": "page_title_size,blog_single_design"
+	}
+}
